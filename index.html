@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>A Sincere Apology</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="sky"></canvas>
+<div class="aura" id="aura"></div>
+
+<main class="stage">
+  <div class="envelope" id="envelope" role="button" tabindex="0" aria-label="Open the letter">
+    <div class="env-body"></div>
+    <div class="env-flap"></div>
+    <div class="seal">A</div>
+  </div>
+  <p class="hint" id="hint">Tap the seal to open</p>
+
+  <article class="letter" id="letter">
+    <p class="eyebrow">A letter of apology</p>
+    <h1>I am sorry for the way I behaved in your class.</h1>
+    <div class="rule"></div>
+
+    <div class="body-copy">
+      <p>Respected Ma'am / Sir, I am writing this without excuses attached to it, because I think you have heard enough of those and because none of mine would survive being said out loud. I disturbed your class. I know exactly which moment I am talking about, and so do you.</p>
+
+      <p>What bothers me most is not that I was caught. It is that a class is a fragile thing — you spend the first few minutes building attention in a room of thirty people, and it takes one person about four seconds to break it. <em>I was that person.</em> The time you lost restoring order was time you had prepared for us, and I took it from the whole room, not only from you.</p>
+
+      <p>I am not going to promise that I will magically become a different student. That promise is easy to make and impossible to check. So instead, here is what I will actually do, and you are welcome to hold me to it:</p>
+
+      <ul class="promises">
+        <li>I will sit where you can see me, not where I can hide.</li>
+        <li>If I have something to say, it goes up as a hand, not sideways as a comment.</li>
+        <li>If I disturb the class again, I will not wait to be called out — I will come to you first.</li>
+        <li>The topic I talked through, I will cover on my own time and show you the work.</li>
+      </ul>
+
+      <p>You did not owe me patience, and you gave it anyway. The least I can do is stop making it necessary. Thank you for correcting me instead of writing me off — I understand the difference between the two, and I know which one I received.</p>
+    </div>
+
+    <div class="sign">
+      <p class="name">Prashant</p>
+      <p class="meta">Registration No. 12618146 &nbsp;·&nbsp; With genuine regret and full intention to do better</p>
+    </div>
+  </article>
+</main>
+
+<div class="dock">
+  <button class="btn" id="audioBtn" aria-pressed="false"><span class="dot"></span>8D Sound</button>
+  <span class="orbit-readout" id="readout">—</span>
+  <button class="btn" id="themeBtn">Theme</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
